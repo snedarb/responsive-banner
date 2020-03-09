@@ -20,17 +20,28 @@ html {
 
 @media only screen and (min-width: 38em) {
 
+  .btn {
+    position: absolute;
+    right: .7rem;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
   .banner {
-    position: absolute;
+    position: relative;
+    max-height: 500px;
+    overflow: hidden;
   }
 
   .banner-content {
     position: absolute;
     bottom: 0;
+  }
+
+  .btn {
+    border-color: #fff;
   }
 
 }
